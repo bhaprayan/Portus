@@ -6,7 +6,9 @@ rvm:
   # The version used at openSUSE 13.2
   - 2.1.3
 
-  # Current Major Ruby Version
+  # Other Ruby Versions
+  - 2.1.8
+  - 2.2.4	
   - 2.3.0
 
   # Future versions
