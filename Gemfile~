@@ -3,27 +3,20 @@ source "https://rubygems.org"
 gem "rails", "~> 4.2.2"
 gem "jquery-rails"
 gem "sass-rails", ">= 3.2"
-#Template engine to reduce HTML syntax
 gem "slim"
-#Gem that provides a set of helpers to guide in creating a simple, robust, and scaleable authorization system
 gem "pundit"
 gem "sprockets", "~> 2.12.3"
 gem "jwt"
 gem "base32"
 gem "active_model_serializers"
-#Gem that provides a flexible authentication solution for Rails based on Warden
 gem "devise"
 gem "gravatar_image_tag"
 gem "public_activity"
 gem "active_record_union"
 gem "mysql2"
-#Gem that extends ActiveRecord models to support fulltext search engine like queries
 gem "search_cop"
-#Scope and engine based paginator
 gem "kaminari"
-#Time base background job scheduler for Rails
 gem "crono"
-
 gem "net-ldap"
 gem "redcarpet"
 gem "font-awesome-rails"
